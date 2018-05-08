@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:Name="http://www.personal.com/rdf#">
+  <rdf:Description rdf:about="https://www.personal.com">
+	<si:title>Oscar Eduardo Ortiz Pinzón</si:title>
+	<si:author>Oscar Eduardo Ortiz Pinzón</si:author>
+	<si:occupation>Software Developer</si:occupation>
+  </rdf:Description>
+</RDF:RDF>
