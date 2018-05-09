@@ -1,0 +1,29 @@
+.myPhoto {
+    padding-right: 500px;
+    padding-left: 500px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.welcome {
+    padding-right: 400px;
+    padding-left: 400px;
+    height: auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 20%;
+    max-width: 25%;
+    padding: 4px;
+}
+
+.articleHeader{
+    display: inline-block
+}
