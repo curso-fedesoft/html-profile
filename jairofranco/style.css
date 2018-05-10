@@ -1,0 +1,74 @@
+body{
+	background: #ecf0f3;
+	font-size: 14pt;
+}
+header{
+	background-color: #fcfcfc;
+	border: #cfcfcf solid 1px;
+	width:90%;
+	border-radius:5px;
+	margin:auto;
+	text-align:center;
+}
+header h1{
+	margin:5px auto;
+}
+header dialog{	
+	background-color: #666;
+	border: #666 solid 1px;
+	color:#fff;
+	padding:10px;
+	margin-top:-10px;
+}
+main{
+	background-color: #f9f9f9;
+	border: #cfcfcf solid 2px;
+	width:90%;
+	border-radius:0;
+	margin-left:5%;
+	margin-top:10px;
+	padding: 20px;
+	box-sizing:border-box;
+	float:left;
+}
+#personaldata{
+	width:40%;
+	float:left;
+}
+#profile{
+	margin-left: 40%;
+}
+.email:hover{	
+	padding:15px;
+}
+.email{	
+	transition: width 5s, height 1s;
+	transition-timing-function: linear;
+}
+footer{
+	width:100%;
+	float:left;
+	padding-bottom: 40px;
+}
+details {
+    max-width:100%;
+}
+details p{
+    margin-top: 5px;
+}
+.content{
+	width:100%;
+	float:left;
+	font-family: 'Gothic A1', sans-serif;
+	line-height: 1.6;
+}
+@media only screen and (max-width: 650px) {
+	#personaldata, #profile{
+		width:100%;
+	}
+	#profile{
+		margin-left:0;
+		border-top:#666 solid 1px;
+		float:left;
+	}
+}

@@ -1,18 +1,20 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <head>
 <title>Jairo Franco</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<center><h1>Jairo Andrés Franco</h1>
+		<h1>Jairo Andrés Franco</h1>
 		<picture>
-			<img src="profile.jpg" alt="Flowers" width="100px;">
+			<img src="../../../hojadevida/profile.jpg" alt="picture" width="100px;">
 		</picture>
 		<h2>Ingeniero de Sistemas</h2>
-		<dialog open>jairo_franco@hotmail.com</dialog></center>
+		<dialog open class='email'>jairo_franco@hotmail.com</dialog>
 	</header>
-	<div>
-		<aside>
+	<main>
+		<div id="personaldata">
 		  <h3>Datos personales</h3>
 		  <dl>
 			  <dt>Edad</dt>
@@ -22,16 +24,31 @@
 			  <dt>Ciudad</dt>
 			  <dd>Zipaquirá</dd>
 			</dl>
-		</aside>
-		<article>	
+		</div>
+		<article id="profile">	
 			<p> <dfn>Ingeniero de Sistemas</dfn> con experiencia en:
 			<ul>
 			  <li>HTML</li>
 			  <li>CSS</li>
 			  <li>PHP</li>
 			</dl>
-		</article>	
-	</div>
+		</article>
+		<div class="content">
+			<hr>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere commodo nunc at eleifend. In eget turpis egestas, varius erat eget, ultricies quam. Donec bibendum est ac nibh auctor, quis ornare dui venenatis. Suspendisse vel egestas tellus, ut laoreet lacus. Donec euismod sapien quis ipsum hendrerit, at finibus lorem scelerisque. Proin vel justo orci. In vel imperdiet quam. Sed ac venenatis ipsum.
+			<p>
+			Fusce aliquet ex ut libero sollicitudin tempus. Phasellus auctor risus ut velit aliquam bibendum. Nullam quis dolor nec dolor blandit mattis. Sed sed rutrum leo, aliquet ultrices purus. Quisque rhoncus dui eget vestibulum aliquet. Praesent consequat laoreet ipsum quis congue. Nulla scelerisque lectus sit amet molestie scelerisque. Cras mi odio, finibus at lorem id, hendrerit porttitor neque. Vivamus non metus sit amet ante fermentum fringilla. Curabitur ut tempor arcu. In sit amet lobortis nisl. Praesent massa felis, blandit tempor molestie id, facilisis quis urna. Fusce urna lacus, imperdiet eget est ut, suscipit fermentum neque. Pellentesque tempus accumsan fringilla. Suspendisse tellus velit, dignissim ac dictum ac, gravida non dolor.
+			<p>
+			<ul>
+			<li>Nam in purus vitae risus sagittis consequat quis ut ligula.</li>
+			<li>Etiam malesuada est sed eros congue, ut fringilla quam lacinia.</li>
+			<li>Nullam non erat facilisis, molestie turpis sit amet, lacinia neque.</li>
+			<li>Vestibulum eu quam sagittis, interdum lorem vel, vestibulum tellus.</li>
+			<li>Sed commodo justo sed metus rutrum, ac sodales tellus interdum.</li>
+			<li>Aliquam sit amet dui vulputate orci elementum pellentesque a eu libero.</li>
+			</ul>
+		</div>
+	</main>
 	<footer>
 		<center>
 			<details>
