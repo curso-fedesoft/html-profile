@@ -10,6 +10,10 @@ h1, h2, ul
     text-align: center;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, a,5)
 }
+section
+{
+   overflow: hidden; 
+}
 p 
 {
     animation-duration: 3s;
@@ -27,7 +31,6 @@ p
         width: 100%;
       }
 }
-
 .parrafo
 {
     background: white;
@@ -38,6 +41,7 @@ p
     margin: 1em auto;
     padding: 1em;
     width: 70%;
+   /* max-width: 800px;*/
 }
 .naranja
 {
